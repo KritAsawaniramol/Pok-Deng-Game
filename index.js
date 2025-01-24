@@ -101,6 +101,7 @@ const handlePlayGameInput = (answer) => {
   }
   continueGame();
 };
+   
 
 const continueGame = () => {
   rl.question("Wanna play more (Yes/No)?\n", (answer) => {
